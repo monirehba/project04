@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
     </style>
@@ -17,56 +16,55 @@
   </head>
   <body>
     <!-- Header section start -->
+
     <header>
-      <nav>
-        <ul class="info">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">SHOP</a></li>
-          <li><a href="#">BLOG</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
-        <ul>
-          <li class="logo">
-            <img src="assets/img/logo.svg" alt="logo" />
-          </li>
-        </ul>
+      <nav class="container">
+        <div class="logo">
+          <img src="assets/img/logo.svg" alt="logo" />
+        </div>
+        <div class="info">
+          <a href="#">HOME</a>
+          <a href="#">SHOP</a>
+          <a href="#">BLOG</a>
+          <a href="#">ABOUT US</a>
+          <a href="#">CONTACT</a>
+        </div>
+
         <div class="user">
           <div>
-            <img src="./assets/img/search.png" alt="search" />
-            <a href="#">SEARCH</a>
+            <a href="#"><img src="./assets/img/search.png" alt="search" /></a>
+            <!-- <a href="#">SEARCH</a> -->
           </div>
           <div>
-            <img src="./assets/img/user.png" alt="user" />
-            <a href="#"> MY ACCOUNT </a>
+            <a href="#"><img src="./assets/img/user.png" alt="user" /></a>
+            <!-- <a href="#"> MY ACCOUNT </a> -->
           </div>
           <div>
-            <img src="./assets/img/shop.png" alt="shop" />
-            <a href="#"> MY CARD </a>
+            <a href="#"><img src="./assets/img/shop.png" alt="shop" /></a>
+            <!-- <a href="#"> MY CARD </a> -->
           </div>
         </div>
       </nav>
-      <div>
-        <div class="header_info">
-          <h3>TRENDING LOOK BOOK 2021</h3>
-          <h1>
-            SPRING COLLECTION
-            <br />
-            FOR WOMEN’S
-          </h1>
-        </div>
-        <div class="header_info">
-          <button>SHOP NOW</button>
-        </div>
+      <div class="header_info">
+        <h3>TRENDING LOOK BOOK 2021</h3>
+        <h1>
+          SPRING COLLECTION
+          <br />
+          FOR WOMEN’S
+        </h1>
+      </div>
+      <div class="header_button">
+        <button>SHOP NOW</button>
       </div>
     </header>
     <!-- Header section end -->
 
-    <main>
-      <!-- Articale section start -->
+    <!-- Articale section start -->
+
+    <div class="container">
       <section class="articles">
         <div class="article">
-          <img src="./assets/img/shopping.png" alt="shopping" />
+          <img src="./assets/img/shopping.png" alt="shop" />
           <h4>FAST DELIVERY</h4>
           <p>
             line let me upload it and find out
@@ -93,9 +91,11 @@
           </p>
         </div>
       </section>
-      <!-- Articale section end -->
+    </div>
+    <!-- Articale section end -->
 
-      <!-- shop section start -->
+    <!-- shop section start -->
+    <div class="container">
       <section class="banners">
         <div class="banner">
           <img src="./assets/img/glasses.jpg" alt="banner1" />
@@ -112,11 +112,15 @@
           </div>
         </div>
       </section>
-      <!-- shop section end -->
+    </div>
+    <!-- shop section end -->
 
-      <!-- Products start -->
-
+    <!-- Products section start -->
+    <div class="container">
       <section class="products">
+        <div class="hr"></div>
+        <br />
+        <br />
         <p>OUR LOOKBOOK 2021</p>
         <h1>
           OUR POPULAR
@@ -183,7 +187,7 @@
             </div>
           </div>
         </div>
-        <div class="fourst">
+        <div class="fourth">
           <div>
             <img src="./assets/img/photo05.jpg" alt="6" />
             <div class="cost">
@@ -197,72 +201,165 @@
           </div>
         </div>
       </section>
-      <!-- Products end -->
-    </main>
+    </div>
+    <!-- Products section end -->
 
     <!-- more colletion start -->
-    <section class="fixed">
-      <h1>NEW COLLECTION IS COOMING...</h1>
-      <button>SEE MORE</button>
-    </section>
+    <div class="container">
+      <section class="fixed">
+        <h1>NEW COLLECTION IS COOMING...</h1>
+        <button>SEE MORE</button>
+      </section>
+    </div>
     <!-- more colletion end -->
 
     <!-- Our feaucher start -->
-    <section class="products">
-      <p>NEW STYLE</p>
-      <h1>
-        OUR FEATURE
-        <br />
-        ITEMS
-      </h1>
-    </section>
-    <section class="feauchers">
-      <div class="feaucher">
-        <img src="./assets/img/watch.jpg" alt="feaucher1" />
-        <div><p>Lorem, ipsum.</p></div>
-      </div>
-      <div class="feaucher">
-        <img src="./assets/img/hat.jpg" alt="feaucher2" />
-        <div><p>Lorem, ipsum.</p></div>
-      </div>
-      <div class="feaucher">
-        <img src="./assets/img/necklaces.jpg" alt="feaucher3" />
-        <div><p>Lorem, ipsum.</p></div>
-      </div>
-    </section>
-
-    <section class="brands">
-      <div class="brand">
-        <img src="./assets/img/01.png" alt="01" />
-        <img src="./assets/img/02.png" alt="02" />
-        <img src="./assets/img/03.png" alt="03" />
-        <img src="./assets/img/04.png" alt="04" />
-        <img src="./assets/img/05.png" alt="05" />
-      </div>
-    </section>
+    <div class="container">
+      <section class="products">
+        <p>NEW STYLE</p>
+        <h1>
+          OUR FEATURE
+          <br />
+          ITEMS
+        </h1>
+      </section>
+      <section class="feauchers">
+        <div class="feaucher1">
+          <img src="./assets/img/watch1.jpg" alt="feaucher" />
+          <div class="feaucher_info">
+            <p>
+              NEW
+              <br />
+              DESIGN
+            </p>
+          </div>
+        </div>
+        <div class="feaucher2">
+          <img src="./assets/img/watch.jpg" alt="feaucher" />
+          <div class="feaucher_info">
+            <p>
+              NEW
+              <br />
+              DESIGN
+            </p>
+          </div>
+        </div>
+        <div class="feaucher3">
+          <img src="./assets/img/necklaces.jpg" alt="feaucher" />
+          <div class="feaucher_info">
+            <p>
+              NEW
+              <br />
+              DESIGN
+            </p>
+          </div>
+        </div>
+        <div class="feaucher4">
+          <img src="./assets/img/hat.jpg" alt="feaucher" />
+          <div class="feaucher_info">
+            <p>
+              NEW
+              <br />
+              DESIGN
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- Our feaucher end -->
 
-    <section class=""></section>
+    <!-- Brand section start -->
+    <div class="container">
+      <section class="brands">
+        <div class="brand">
+          <img src="./assets/img/01.png" alt="01" />
+          <img src="./assets/img/02.png" alt="02" />
+          <img src="./assets/img/03.png" alt="03" />
+          <img src="./assets/img/04.png" alt="04" />
+          <img src="./assets/img/05.png" alt="05" />
+        </div>
+      </section>
+    </div>
+    <!-- Brand section end -->
+
+    <!--Blog section start -->
+    <div class="container">
+      <section class="blog">
+        <div class="blog_info">
+          <h2>BLOG</h2>
+          <p>
+            GET THE LATEST
+            <br />
+            UPDATE
+          </p>
+          <div class="blog_box">
+            <form action="https//">
+              <input
+                type="email"
+                name="email"
+                id="emailbox"
+                placeholder="   Email"
+              />
+              <label for="emailbox"><a href="#"> SUBSCRIBE</a></label>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Blog section end -->
+
     <!-- footer start -->
-    <section class="footer">
-      <div class="content">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <hr />
-      <div class="socials">
-        <a href="https://www.facebook.com/"
-          ><img src="./assets/img/facebook.png" alt="facebook"
-        /></a>
-        <a href="https://www.instagram.com/"
-          ><img src="./assets/img/instagram.png" alt="i"
-        /></a>
-        <a href="https://twitter.com/"
-          ><img src="./assets/img/twitter1.png" alt="twitter"
-        /></a>
-      </div>
-    </section>
+    <div class="container">
+      <section class="footer">
+        <div class="content">
+          <div class="contact_us">
+            <h2>Contact Us</h2>
+            <div class="contact_us_info">
+              <div class="contact_us_info_info">
+                <img src="./assets/img/location.png" alt="location" />
+                <img src="assets/img/time.png" alt="time" />
+                <img src="assets/img/phone.png" alt="phone number" />
+                <img src="assets/img/email.png" alt="email" />
+              </div>
+              <div class="contact_us_info_info">
+                <p>6087 Richmond hwy, Alexandria, VA</p>
+                <p>Mo-Fr 11:00-00:00, Sa-Sa 15:00-00:00</p>
+                <p>703 329 0632</p>
+                <p><a href="#"> info@demolink.org</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="contact_us_image img">
+            <h2>Our App</h2>
+
+            <img
+              src="assets/img/available_on_both_stores_generated.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="socials">
+          <div><p>Copyright © 2022 Athena. All rights reserved.</p></div>
+          <div>
+            <a href="https://www.facebook.com/"
+              ><img src="./assets/img/facebook .png" alt="facebook"
+            /></a>
+            <a href="https://www.instagram.com/"
+              ><img src="./assets/img/instagram.ico" alt="i"
+            /></a>
+            <a href="https://twitter.com/"
+              ><img src="./assets/img/twitter.ico" alt="twitter"
+            /></a>
+            <a href="https://pintrest.com/"
+              ><img src="./assets/img/pintrest.png" alt="pintrest"
+            /></a>
+          </div>
+        </div>
+      </section>
+    </div>
     <!-- footer end -->
   </body>
 </html>
